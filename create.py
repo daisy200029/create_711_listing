@@ -1,7 +1,7 @@
 #/usr/bin/env python
 import requests
 
-fd = open("IMG_2369.png", "rb")
+fd = open("OUT.png", "rb")
 
 url = "https://stage.carousell.io/api/3.1/listings/"
 
@@ -9,7 +9,7 @@ payload = {
  "mailing": "false",
  "meetup":"false",
  "shipping_tw_711":"true",
- "title":"123haha",
+ "title":"ha6",
  "price":117.0,
  "condition":1,
  "collection_id":1113,
